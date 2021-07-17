@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "RedLine",
+    "version": "1.0",
+    "description": "Add red Border to every website.",
+    "icons": {
+      "48": "lin.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["srcborder.js"]
+      }
+    ]
+  }
